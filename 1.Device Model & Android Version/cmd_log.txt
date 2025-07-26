@@ -1,0 +1,4 @@
+[26-07-2025 14:14:13.69] adb shell getprop ro.product.model 
+M2010J19SI
+[26-07-2025 14:20:14.41] adb shell getprop ro.build.version.release 
+12
