@@ -1,0 +1,877 @@
+07-26 06:18:22.162   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 06:24:02.083   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 06:47:09.036   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 07:04:10.045   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 07:18:24.118   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 07:22:03.095   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 07:46:28.011   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 08:11:44.666   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 08:16:46.961  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 08:16:46.962  1708  2103 I ActivityManager: Start proc 12931:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 08:16:47.274  1708  2738 I SmartPower.com.Slack/10460(12931): died->background(3446463ms) R(process start ) adj=-10000.
+07-26 08:16:47.275  1708  2445 I SmartPower: com.Slack/10460 state=died adj=915 proc size=1 move to background process start 
+07-26 08:16:47.942  1708  2851 I UiModeManager: systemserver package:com.Slack null
+07-26 08:16:47.950 12931 12931 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:16:55.357  1708 12630 E ActivityManager:  +0% 12931/com.Slack: 0% user + 0% kernel
+07-26 08:16:55.681  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 08:16:58.552  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:50010
+07-26 08:16:58.552  1708  2159 I ActivityManager: Killing 12931:com.Slack/u0a460 (adj 500): UserDefined
+07-26 08:16:58.553  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=12931, reason=UserDefined
+07-26 08:16:58.559  1708  2159 I SmartPower.com.Slack/10460(12931): background->died(11285ms) R(process died ) adj=500.
+07-26 08:16:58.560  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=500 proc size=1 move to died process died 
+07-26 08:16:58.672  1708  4378 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:16:58.680  1708  4378 W ActivityManager: Scheduling restart of crashed service com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService in 81480ms for start-requested
+07-26 08:17:02.083  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 08:17:02.084  1708  2103 I ActivityManager: Start proc 14701:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 08:17:02.286  1708  4201 I SmartPower.com.Slack/10460(14701): died->background(3727ms) R(process start ) adj=-10000.
+07-26 08:17:02.286  1708  2445 I SmartPower: com.Slack/10460 state=died adj=500 proc size=1 move to background process start 
+07-26 08:17:03.216  1708  2899 I UiModeManager: systemserver package:com.Slack null
+07-26 08:17:03.222 14701 14701 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:17:12.063  1708  2102 W BroadcastQueue: Receiver during timeout of BroadcastRecord{63ecba4 u0 com.google.android.c2dm.intent.RECEIVE} : ResolveInfo{14622e3 com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver m=0x108000}
+07-26 08:17:12.064  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive broadcast end Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:12.914  1708 15706 D ActivityManagerServiceImpl: checkThawTime uid=10460 report=Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:12.981  1708 15706 D MIUIScout ANR: Pid(14701) have D state thead(tid:14701 name:com.Slack)
+07-26 08:17:14.190  1708 15706 E ActivityManager: ANR in com.Slack
+07-26 08:17:14.190  1708 15706 E ActivityManager: Reason: Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:14.191  1708 15706 E ActivityManager:  +0% 14701/com.Slack: 0% user + 0% kernel
+07-26 08:17:14.268  1708  3361 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:14.268  1708  2851 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:14.387  1708  4380 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:14.403  1708 15706 I ActivityManager: Killing 14701:com.Slack/u0a460 (adj 0): bg anr
+07-26 08:17:14.403  1708 15706 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=14701, reason=bg anr
+07-26 08:17:14.405  1708 15706 I SmartPower.com.Slack/10460(14701): background->died(12119ms) R(process died ) adj=0.
+07-26 08:17:14.406  1708 15706 D ActivityManager: Completed ANR of com.Slack in 2060ms, latency 282ms
+07-26 08:17:14.406  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=0 proc size=1 move to died process died 
+07-26 08:17:14.415  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 08:17:14.415  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=4
+07-26 08:17:14.913  1708  4201 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:17:14.915  1708  4201 W ActivityManager: Scheduling restart of crashed service com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService in 325920ms for start-requested
+07-26 08:17:14.957  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 08:17:14.970  1708  2103 I ActivityManager: Start proc 15880:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 08:17:15.319  1708  2788 I SmartPower.com.Slack/10460(15880): died->background(915ms) R(process start ) adj=-10000.
+07-26 08:17:15.319  1708  2445 I SmartPower: com.Slack/10460 state=died adj=0 proc size=1 move to background process start 
+07-26 08:17:17.116  1708  2851 I UiModeManager: systemserver package:com.Slack null
+07-26 08:17:17.121 15880 15880 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:17:25.091  1708  2102 W BroadcastQueue: Receiver during timeout of BroadcastRecord{8ae8554 u0 com.google.android.c2dm.intent.RECEIVE} : ResolveInfo{73487e4 com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver m=0x108000}
+07-26 08:17:25.100  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive broadcast end Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:26.738  1708 16906 D ActivityManagerServiceImpl: checkThawTime uid=10460 report=Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:26.745  1708 16906 D MIUIScout ANR: Pid(15880) have D state thead(tid:15880 name:com.Slack)
+07-26 08:17:36.227  1708  2102 W BroadcastQueue: Receiver during timeout of BroadcastRecord{c347117 u0 com.google.android.c2dm.intent.RECEIVE} : ResolveInfo{7d4ddd0 com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver m=0x108000}
+07-26 08:17:37.631  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:37.726  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:37.860  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:37.862  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.001  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.003  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.144  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.146  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.279  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.280  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.399  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.400  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.540  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.541  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.683  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.685  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.819  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.821  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.960  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:38.961  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.102  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.103  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.241  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.245  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.386  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.389  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.520  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.521  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.659  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.660  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.801  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.802  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.949  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:39.950  1708  4201 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.080  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.081  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.214  1708  3176 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.215  1708  4201 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.338  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.340  1708  4350 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.440  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.442  1708  2738 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.502  1708 16906 E ActivityManager: ANR in com.Slack
+07-26 08:17:40.502  1708 16906 E ActivityManager: Reason: Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:40.502  1708 16906 E ActivityManager:   5.9% 15880/com.Slack: 2.1% user + 3.8% kernel / faults: 24976 minor 91 major
+07-26 08:17:40.502  1708 16906 E ActivityManager:  +0% 17836/com.Slack: 0% user + 0% kernel
+07-26 08:17:40.541  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.543  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.643  1708  3194 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.643  1708  2944 W ActivityManager: Missing app error report, app = com.Slack crashing = false notResponding = true
+07-26 08:17:40.655  1708 16906 I ActivityManager: Killing 15880:com.Slack/u0a460 (adj 0): bg anr
+07-26 08:17:40.657  1708 16906 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=15880, reason=bg anr
+07-26 08:17:40.666  1708 16906 I SmartPower.com.Slack/10460(15880): background->died(25346ms) R(process died ) adj=0.
+07-26 08:17:40.666  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=0 proc size=1 move to died process died 
+07-26 08:17:40.667  1708 16906 D ActivityManager: Completed ANR of com.Slack in 15557ms, latency 18ms
+07-26 08:17:40.667  1708 16906 I ActivityManager: Skipping duplicate ANR: com.android.server.am.ProcessErrorStateRecord@324a204 Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:40.668  1708 16906 D ActivityManager: Completed ANR of com.Slack in 1ms, latency 4439ms
+07-26 08:17:40.684  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 08:17:40.684  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=4
+07-26 08:17:40.726  1708  3194 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:17:40.754  1708  3194 W ActivityManager: Scheduling restart of crashed service com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService in 1303680ms for start-requested
+07-26 08:17:40.762  1708  2110 I ActivityManager: Process PhantomProcessRecord {2615521 17836:15880:com.Slack/u0a460} died
+07-26 08:17:40.783  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 08:17:40.796  1708  2103 I ActivityManager: Start proc 17900:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 08:17:40.916  1708  4350 I SmartPower.com.Slack/10460(17900): died->background(250ms) R(process start ) adj=-10000.
+07-26 08:17:40.916  1708  2445 I SmartPower: com.Slack/10460 state=died adj=0 proc size=1 move to background process start 
+07-26 08:17:41.036  4389  4695 D Utils   : isSystemApp:com.Slack
+07-26 08:17:44.494  1708  2944 I UiModeManager: systemserver package:com.Slack null
+07-26 08:17:44.495 17900 17900 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:17:50.774  1708  2102 W BroadcastQueue: Receiver during timeout of BroadcastRecord{c355b4 u0 com.google.android.c2dm.intent.RECEIVE} : ResolveInfo{438a2b0 com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver m=0x108000}
+07-26 08:17:50.775  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive broadcast end Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:17:55.828  4389  4695 D Utils   : isSystemApp:com.Slack
+07-26 08:18:04.222  1708 16906 E ActivityManager:  +0% 17900/com.Slack: 0% user + 0% kernel
+07-26 08:18:04.222  1708 16906 E ActivityManager:   23% 17900/com.Slack: 5.1% user + 17% kernel / faults: 4821 minor
+07-26 08:18:04.222  1708 16906 E ActivityManager:     23% 17900/com.Slack: 5.1% user + 17% kernel
+07-26 08:18:06.721  1708 16906 D ActivityManagerServiceImpl: checkThawTime uid=10460 report=Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:18:07.511  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:50010
+07-26 08:18:07.525  1708  2159 I ActivityManager: Killing 17900:com.Slack/u0a460 (adj 500): UserDefined
+07-26 08:18:07.529  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=17900, reason=UserDefined
+07-26 08:18:07.542  1708  2159 I SmartPower.com.Slack/10460(17900): background->died(26626ms) R(process died ) adj=500.
+07-26 08:18:07.543  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=500 proc size=1 move to died process died 
+07-26 08:18:08.081  1708  4543 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:18:08.082  1708  4543 W ActivityManager: Scheduling restart of crashed service com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService in 16578ms for start-requested
+07-26 08:18:18.161  1708 16906 E ActivityManager: ANR in com.Slack
+07-26 08:18:18.161  1708 16906 E ActivityManager: Reason: Broadcast of Intent { act=com.google.android.c2dm.intent.RECEIVE flg=0x11000010 pkg=com.Slack cmp=com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver (has extras) }
+07-26 08:18:18.789  1708 16906 D ActivityManager: Completed ANR of com.Slack in 14194ms, latency 13821ms
+07-26 08:18:22.713  4389  4695 D Utils   : isSystemApp:com.Slack
+07-26 08:18:24.735  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:18:24.737  1708  2103 I ActivityManager: Start proc 20315:com.Slack/u0a460 for service {com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService} caller=com.Slack
+07-26 08:18:24.974  1708  4453 I SmartPower.com.Slack/10460(20315): died->background(17432ms) R(process start ) adj=-10000.
+07-26 08:18:25.006  1708  4453 W ActivityManager: Stopping service due to app idle: u0a460 -25s220ms com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 08:18:26.121  1708  4453 I UiModeManager: systemserver package:com.Slack null
+07-26 08:18:26.153 20315 20315 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:18:26.416  1708  2445 I SmartPower: com.Slack/10460 state=died adj=500 proc size=1 move to background process start 
+07-26 08:18:36.078   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 08:18:40.311  1708  4378 W ActivityManager: Service done with onDestroy, but executeNesting=2: ServiceRecord{f9ca7e8 u0 com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService}
+07-26 08:18:40.313  1708  2445 I SmartPower: com.Slack/10460 state=background adj=1001 proc size=1 move to inactive adj below visible
+07-26 08:18:40.369  1708  4201 I SmartPower.com.Slack/10460(20315): background->died(15395ms) R(process died ) adj=905.
+07-26 08:18:40.369  1708  4201 I ActivityManager: Process com.Slack (pid 20315) has died: cch+5 CEM 
+07-26 08:18:40.370  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 08:18:40.375  1708  4201 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:19:30.476  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 08:19:30.477  1708  2103 I ActivityManager: Start proc 26273:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 08:19:30.527  1708  1780 I SmartPower.com.Slack/10460(26273): died->background(50158ms) R(process start ) adj=-10000.
+07-26 08:19:30.527  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 08:19:30.914  1708  1780 I UiModeManager: systemserver package:com.Slack null
+07-26 08:19:30.914 26273 26273 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:19:31.598  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 08:19:34.429  1708  3361 E NotificationService: Muting recently noisy 0|com.Slack|786733008|null|10460
+07-26 08:19:34.500  1708  1776 E NotificationService: Muting recently noisy 0|com.Slack|786733008|null|10460
+07-26 08:19:34.833  1708  4380 E NotificationService: Muting recently noisy 0|com.Slack|786733008|null|10460
+07-26 08:19:35.250  1708  4380 E NotificationManagerServiceImpl: Cancel the recent frequently vibration in 15s 0|com.Slack|786733008|null|10460
+07-26 08:19:41.830  1708  2898 I SmartPower.com.Slack/10460(26273): background->died(11303ms) R(process died ) adj=905.
+07-26 08:19:41.830  1708  2898 I ActivityManager: Process com.Slack (pid 26273) has died: cch+5 CEM 
+07-26 08:19:41.830  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 08:19:41.832  1708  2898 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:29:19.218   833  1280 D test##>>: com.Slack=37-3.176635120555556-0
+07-26 08:36:41.405  1708  4453 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.Slack/slack.features.home.HomeActivity bnds=[265,1485][416,1636] (has extras)} from uid 10087 from pid 6797 callingPackage com.miui.home
+07-26 08:36:41.484  1708  2103 D Boost   : hostingType=pre-top-activity, hostingName={com.Slack/slack.features.home.HomeActivity}, callerPackage=others, isSystem=true, isBoostNeeded=false.
+07-26 08:36:41.487  1708  2103 I ActivityManager: Start proc 23391:com.Slack/u0a460 for pre-top-activity {com.Slack/slack.features.home.HomeActivity} caller=others
+07-26 08:36:41.527  1708  2049 I SmartPower.com.Slack/10460(0): died->visible(483019ms) R(become visible) adj=-10000.
+07-26 08:36:41.527  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to foreground become visible
+07-26 08:36:41.568  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:36:41.878  1708  4204 I UiModeManager: systemserver package:com.Slack null
+07-26 08:36:41.878 23391 23391 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 08:36:42.132  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 08:36:42.311  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:36:42.315  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:36:42.698  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:36:42.699  1708  2103 I ActivityManager: Start proc 23557:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:36:42.891 23391 23391 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.home.HomeActivity time=559ms latency=764ms running=0ms  procState=-1  historyMsgCount=3 (msgIndex=1 wall=559ms seq=4 late=764ms h=android.app.ActivityThread$H w=159) (msgIndex=2 wall=766ms seq=2 h=android.app.ActivityThread$H w=110)
+07-26 08:36:42.892 23391 23391 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.home.HomeActivity time=0ms latency=1323ms running=0ms  procState=-1  historyMsgCount=5 (msgIndex=1 wall=559ms seq=4 late=764ms h=android.app.ActivityThread$H w=159) (msgIndex=2 wall=766ms seq=2 h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=559ms seq=4 late=764ms h=android.app.ActivityThread$H w=159)
+07-26 08:36:44.274  1708  4453 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity} in Surface(name=com.Slack/slack.features.home.HomeActivity)/@0xb810717
+07-26 08:36:44.401  1708  3194 D WindowManager: Input focus has changed to Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 08:36:51.975  1708  4451 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|289|354411303900314|131|3|8
+07-26 08:36:51.992  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|289|131|354411303900314|Slow handle traversal|8
+07-26 08:36:52.411  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:36:52.428  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:36:52.895  1708  4183 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|747|354416560589635|145|2|25
+07-26 08:36:52.905  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|747|145|354416560589635|Slow handle animation|25
+07-26 08:36:54.643  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 08:36:57.876  1708  4183 D WindowManager: Input focus has changed to Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 08:37:01.912  1708  4183 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|239|354423654399685|239|2|1
+07-26 08:37:01.913  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|239|239|354423654399685|Slow handle animation|1
+07-26 08:37:01.913  1708  2898 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|730|354425162623851|276|3|9
+07-26 08:37:01.913  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|730|276|354425162623851|Slow handle traversal|9
+07-26 08:37:06.724  1708  4183 I ActivityTaskManager: START u0 {cmp=com.Slack/slack.features.messagedetails.MessageDetailsActivity (has extras)} from uid 10460 from pid 23391 callingPackage com.Slack
+07-26 08:37:06.761  1708  2049 D WindowManager: Update InputWindowHandle: 2f0b6b2 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 08:37:06.780  1708  2898 I ActivityTaskManager: The Process com.Slack Already Exists in BG. So sending its PID: 23391
+07-26 08:37:06.794  1708  2098 D PeriodicCleaner: com.Slack/slack.features.messagedetails.MessageDetailsActivity isn't fullscreen, skip.
+07-26 08:37:06.878  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:37:06.879  1708  2103 I ActivityManager: Start proc 24298:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:37:07.095 23391 23391 W Activity: PerfMonitor: Slow Operation: Activity com.Slack/slack.features.messagedetails.MessageDetailsActivity onStart took 176ms
+07-26 08:37:07.208 23391 23391 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.messagedetails.MessageDetailsActivity time=0ms latency=416ms running=0ms  procState=-1  historyMsgCount=16 (msgIndex=15 wall=406ms seq=1817 h=android.app.ActivityThread$H w=159)
+07-26 08:37:07.304  1708  1776 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=2} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:37:07.338  1708  1776 D WindowManager: Input focus has changed to Window{d0d741e u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} display=0 updateInputWindows = true
+07-26 08:37:07.339  1708  2049 D WindowManager: Update InputWindowHandle: d0d741e com.Slack/slack.features.messagedetails.MessageDetailsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 08:37:07.415  1708  1776 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{d0d741e u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} in Surface(name=com.Slack/slack.features.messagedetails.MessageDetailsActivity)/@0xfc485cd
+07-26 08:37:07.514  1708  4183 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=2} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:37:07.578  1708  4183 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=2} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:37:07.583  1708  4183 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=2} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:37:07.763  1708  2049 D WindowManager: Update InputWindowHandle: d0d741e com.Slack/slack.features.messagedetails.MessageDetailsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 08:37:07.912  1708  3194 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=2} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:37:07.959  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:37:07.971  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:37:09.029  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:37:09.030  1708  2103 I ActivityManager: Start proc 24366:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:37:09.968  1708  2317 D PerfShielderService: com.Slack|com.Slack/slack.features.messagedetails.MessageDetailsActivity|653|354432366148848|304|3|10
+07-26 08:37:09.969  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|653|304|354432366148848|Slow handle traversal|10
+07-26 08:37:10.015  1708  2317 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|423|354432489847910|120|3|10
+07-26 08:37:10.016  4389 20329 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|423|120|354432489847910|Slow handle traversal|10
+07-26 08:37:40.628  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:37:40.638  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:37:44.878  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:37:44.881  1708  2103 I ActivityManager: Start proc 25030:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:38:43.570  1708  2049 D WindowManager: Focus not requested for window=Window{d0d741e u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} because it has no surface or is not focusable.
+07-26 08:38:43.591  1708  2049 D WindowManager: Focus not requested for window=Window{d0d741e u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} because it has no surface or is not focusable.
+07-26 08:38:43.619  1708  4330 D WindowManager: Input focus has changed to Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 08:38:46.198  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 08:38:46.311  1708  3194 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|377|354529362879488|138|2|12
+07-26 08:38:46.312  4389 19982 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|377|138|354529362879488|Slow handle animation|12
+07-26 08:38:51.178  1708  4330 D WindowManager: Input focus has changed to Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 08:38:53.448  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.455  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.534  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.597  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.601  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.643  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:53.645  1708  4381 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{ef962fb #1302 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 08:38:55.190  1708  1780 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|502|354538638999328|161|2|16
+07-26 08:38:55.191  4389 19982 W MiuiPerfServiceClient: interceptAndQueuing:23391|com.Slack|502|161|354538638999328|Slow handle animation|16
+07-26 08:38:58.327  1708  2049 D WindowManager: Update InputWindowHandle: 2f0b6b2 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 08:38:58.334  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 08:38:59.943  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:38:59.973  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 08:39:00.413  1708  2049 D WindowManager: Update InputWindowHandle: 2f0b6b2 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=false, changed=true
+07-26 08:39:00.975  1708  2048 I SmartPower.com.Slack/10460(23391): visible->invisible(139448ms) R(become invisible) adj=0.
+07-26 08:39:00.975  1708  2048 I SmartPower.com.Slack/10460(23391): invisible->background(0ms) R(become background) adj=0.
+07-26 08:39:00.975  1708  2445 I SmartPower: com.Slack/10460 state=foreground adj=0 proc size=1 move to inactive become invisible
+07-26 08:39:01.034 23391 23391 W Activity: PerfMonitor: Slow Operation: Activity com.Slack/slack.features.home.HomeActivity onPause took 57ms
+07-26 08:39:01.706 23391 23391 W Activity: PerfMonitor: Slow Operation: Activity com.Slack/slack.features.home.HomeActivity onStop took 641ms
+07-26 08:39:02.022  1708  2788 D PackageManager: set app  component=com.Slack/slack.features.customstatus.widget.CustomStatusWidgetReceiver enabled state: 2 from null,uid=10460,pid=23391
+07-26 08:39:10.852  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:39:10.853  1708  2103 I ActivityManager: Start proc 26139:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:39:59.613  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 08:39:59.614  1708  2103 I ActivityManager: Start proc 26957:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 08:43:33.476  1708  2159 I ProcessSceneCleaner: SwipeUpClean: kill procName=com.Slack info=AS:90018
+07-26 08:43:33.476  1708  2159 I ActivityManager: Killing 23391:com.Slack/u0a460 (adj 900): SwipeUpClean
+07-26 08:43:33.476  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=23391, reason=SwipeUpClean
+07-26 08:43:33.480  1708  2159 I SmartPower.com.Slack/10460(23391): background->died(253928ms) R(process died ) adj=900.
+07-26 08:43:33.480  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=900 proc size=1 move to died process died 
+07-26 08:43:33.480  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 08:43:33.480  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=0
+07-26 08:43:33.579  1708  4200 I WindowManager: WIN DEATH: Window{2f0b6b2 u0 com.Slack/slack.features.home.HomeActivity}
+07-26 08:43:33.589  1708  2898 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 08:43:33.600  1708  2088 W UsageStatsService: Unexpected activity event reported! (com.Slack/slack.features.home.HomeActivity event : 23 instanceId : 166723398)
+07-26 08:44:28.455   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 09:04:54.349   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 09:18:37.442   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 09:25:42.833   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 09:36:39.246  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 09:36:39.249  1708  2103 I ActivityManager: Start proc 5764:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 09:36:39.558  1708  4359 I SmartPower.com.Slack/10460(5764): died->background(1590458ms) R(process start ) adj=-10000.
+07-26 09:36:39.558  1708  2445 I SmartPower: com.Slack/10460 state=died adj=900 proc size=1 move to background process start 
+07-26 09:36:39.979  1708  2317 I UiModeManager: systemserver package:com.Slack null
+07-26 09:36:39.980  5764  5764 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 09:36:40.666  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 09:37:03.892  1708  2788 I ActivityManager: Killing 5764:com.Slack/u0a460 (adj 955): empty #13
+07-26 09:37:03.892  1708  2788 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=5764, reason=empty #13
+07-26 09:37:03.895  1708  2788 I SmartPower.com.Slack/10460(5764): background->died(24337ms) R(process died ) adj=955.
+07-26 09:37:03.895  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 09:37:03.898  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 09:37:03.898  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=2
+07-26 09:37:04.168  1708  4380 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 09:45:42.855   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 09:59:15.971  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 09:59:15.975  1708  2103 I ActivityManager: Start proc 8510:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 09:59:16.029  1708  2738 I SmartPower.com.Slack/10460(8510): died->background(642533ms) R(process start ) adj=-10000.
+07-26 09:59:16.029  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 09:59:16.371  1708  2738 I UiModeManager: systemserver package:com.Slack null
+07-26 09:59:16.372  8510  8510 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 09:59:16.949  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 09:59:29.942  1708  4426 I ActivityManager: Killing 8510:com.Slack/u0a460 (adj 935): empty #14
+07-26 09:59:29.942  1708  4426 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=8510, reason=empty #14
+07-26 09:59:29.945  1708  4426 I SmartPower.com.Slack/10460(8510): background->died(13916ms) R(process died ) adj=935.
+07-26 09:59:29.945  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=935 proc size=1 move to died process died 
+07-26 09:59:29.946  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 09:59:29.946  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=1
+07-26 09:59:30.170  1708  3194 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:05:41.686   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 10:17:39.005  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 10:17:39.006  1708  2103 I ActivityManager: Start proc 10988:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 10:17:39.063  1708  2851 I SmartPower.com.Slack/10460(10988): died->background(695909ms) R(process start ) adj=-10000.
+07-26 10:17:39.064  1708  2445 I SmartPower: com.Slack/10460 state=died adj=935 proc size=1 move to background process start 
+07-26 10:17:39.579  1708  4542 I UiModeManager: systemserver package:com.Slack null
+07-26 10:17:39.580 10988 10988 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:17:40.624  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 10:18:37.995   833  1280 D test##>>: com.Slack=177-14.835058301666667-0
+07-26 10:19:09.472  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:94519
+07-26 10:19:09.472  1708  2159 I ActivityManager: Killing 10988:com.Slack/u0a460 (adj 945): UserDefined
+07-26 10:19:09.472  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=10988, reason=UserDefined
+07-26 10:19:09.475  1708  2159 I SmartPower.com.Slack/10460(10988): background->died(90411ms) R(process died ) adj=945.
+07-26 10:19:09.476  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=945 proc size=1 move to died process died 
+07-26 10:19:09.761  1708  4201 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:19:45.072  1708  4543 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.Slack/slack.features.home.HomeActivity bnds=[262,1656][413,1807] (has extras)} from uid 10087 from pid 6797 callingPackage com.miui.home
+07-26 10:19:45.164  1708  2103 D Boost   : hostingType=pre-top-activity, hostingName={com.Slack/slack.features.home.HomeActivity}, callerPackage=others, isSystem=true, isBoostNeeded=false.
+07-26 10:19:45.172  1708  2103 I ActivityManager: Start proc 14351:com.Slack/u0a460 for pre-top-activity {com.Slack/slack.features.home.HomeActivity} caller=others
+07-26 10:19:45.246  1708  2049 I SmartPower.com.Slack/10460(0): died->visible(35772ms) R(become visible) adj=-10000.
+07-26 10:19:45.247  1708  2445 I SmartPower: com.Slack/10460 state=died adj=945 proc size=1 move to foreground become visible
+07-26 10:19:45.293  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:19:45.305  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:19:45.576  1708  4375 I UiModeManager: systemserver package:com.Slack null
+07-26 10:19:45.577 14351 14351 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:19:46.273  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:19:46.273  1708  2103 I ActivityManager: Start proc 14518:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:19:46.411 14351 14351 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.home.HomeActivity time=407ms latency=713ms running=0ms  procState=-1  historyMsgCount=3 (msgIndex=2 wall=709ms seq=2 h=android.app.ActivityThread$H w=110)
+07-26 10:19:46.412 14351 14351 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.home.HomeActivity time=0ms latency=1120ms running=0ms  procState=-1  historyMsgCount=5 (msgIndex=2 wall=709ms seq=2 h=android.app.ActivityThread$H w=110) (msgIndex=4 wall=407ms seq=4 late=713ms h=android.app.ActivityThread$H w=159)
+07-26 10:19:47.199  1708  4452 D WindowManager: Input focus has changed to Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 10:19:47.201  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:19:47.442  1708  4452 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity} in Surface(name=com.Slack/slack.features.home.HomeActivity)/@0x1ffbaa5
+07-26 10:19:52.120  1708  4201 I ActivityTaskManager: START u0 {cmp=com.Slack/slack.features.allthreads.AllThreadsActivity} from uid 10460 from pid 14351 callingPackage com.Slack
+07-26 10:19:52.139  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:19:52.179  1708  3176 I ActivityTaskManager: The Process com.Slack Already Exists in BG. So sending its PID: 14351
+07-26 10:19:52.416  1708  2738 D WindowManager: Input focus has changed to Window{58ef375 u0 com.Slack/slack.features.allthreads.AllThreadsActivity} display=0 updateInputWindows = true
+07-26 10:19:52.417  1708  2049 D WindowManager: Update InputWindowHandle: 58ef375 com.Slack/slack.features.allthreads.AllThreadsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:19:52.475  1708  2944 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{58ef375 u0 com.Slack/slack.features.allthreads.AllThreadsActivity} in Surface(name=com.Slack/slack.features.allthreads.AllThreadsActivity)/@0x322e562
+07-26 10:19:53.000  1708  2049 D WindowManager: shouldDeferAnimationFinish ActivityRecord{6b05c38 u0 com.Slack/slack.features.home.HomeActivity t1306}, anim = com.android.server.wm.LocalAnimationAdapter@ee8712a
+07-26 10:19:53.015  1708  2049 D WindowManager: Update InputWindowHandle: 58ef375 com.Slack/slack.features.allthreads.AllThreadsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:19:56.297  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:19:56.315  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:19:56.865  1708  4379 D PerfShielderService: com.Slack|com.Slack/slack.features.allthreads.AllThreadsActivity|406|357903598688930|294|2|2
+07-26 10:19:56.887  4389 17681 W MiuiPerfServiceClient: interceptAndQueuing:14351|com.Slack|406|294|357903598688930|Slow handle animation|2
+07-26 10:19:57.470  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:19:57.471  1708  2103 I ActivityManager: Start proc 14981:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:19:59.655  1708  3197 D PerfShielderService: com.Slack|com.Slack/slack.features.allthreads.AllThreadsActivity|1051|357905477191638|134|2|18
+07-26 10:19:59.656  4389 17681 W MiuiPerfServiceClient: interceptAndQueuing:14351|com.Slack|1051|134|357905477191638|Slow handle animation|18
+07-26 10:20:04.328  1708  4378 I ActivityTaskManager: START u0 {cmp=com.Slack/slack.features.messagedetails.MessageDetailsActivity (has extras)} from uid 10460 from pid 14351 callingPackage com.Slack
+07-26 10:20:04.351  1708  2049 D WindowManager: Update InputWindowHandle: 58ef375 com.Slack/slack.features.allthreads.AllThreadsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:04.361  1708  4378 I ActivityTaskManager: The Process com.Slack Already Exists in BG. So sending its PID: 14351
+07-26 10:20:04.364  1708  2098 D PeriodicCleaner: com.Slack/slack.features.messagedetails.MessageDetailsActivity isn't fullscreen, skip.
+07-26 10:20:04.581 14351 14351 W Activity: PerfMonitor: Slow Operation: Activity com.Slack/slack.features.messagedetails.MessageDetailsActivity onStart took 159ms
+07-26 10:20:04.667 14351 14351 W Looper  : PerfMonitor looperActivity : package=com.Slack/slack.features.messagedetails.MessageDetailsActivity time=0ms latency=303ms running=0ms  procState=-1  historyMsgCount=5 (msgIndex=4 wall=296ms seq=2183 h=android.app.ActivityThread$H w=159)
+07-26 10:20:04.761  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=3} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:04.804  1708  4378 D WindowManager: Input focus has changed to Window{f2e4d9d u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} display=0 updateInputWindows = true
+07-26 10:20:04.805  1708  2049 D WindowManager: Update InputWindowHandle: f2e4d9d com.Slack/slack.features.messagedetails.MessageDetailsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:04.872  1708  4426 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{f2e4d9d u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} in Surface(name=com.Slack/slack.features.messagedetails.MessageDetailsActivity)/@0xe3fce0c
+07-26 10:20:04.905  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=3} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:04.925  1708  1780 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=3} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:04.932  1708  1780 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=3} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:05.209  1708  2049 D WindowManager: Update InputWindowHandle: f2e4d9d com.Slack/slack.features.messagedetails.MessageDetailsActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:05.498  1708  1780 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=3} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:08.460  1708  4378 D PerfShielderService: com.Slack|com.Slack/slack.features.messagedetails.MessageDetailsActivity|379|357913306437051|91|2|7
+07-26 10:20:08.460  1708  4378 D PerfShielderService: com.Slack|com.Slack/slack.features.messagedetails.MessageDetailsActivity|358|357914438575540|132|2|7
+07-26 10:20:08.461  4389 17681 W MiuiPerfServiceClient: interceptAndQueuing:14351|com.Slack|379|91|357913306437051|Slow handle animation|7
+07-26 10:20:08.461  4389 17681 W MiuiPerfServiceClient: interceptAndQueuing:14351|com.Slack|358|132|357914438575540|Slow handle animation|7
+07-26 10:20:09.654  1708  2049 D WindowManager: Focus not requested for window=Window{f2e4d9d u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} because it has no surface or is not focusable.
+07-26 10:20:09.665  1708  2049 D WindowManager: Focus not requested for window=Window{f2e4d9d u0 com.Slack/slack.features.messagedetails.MessageDetailsActivity} because it has no surface or is not focusable.
+07-26 10:20:09.692  1708  4452 D WindowManager: Input focus has changed to Window{58ef375 u0 com.Slack/slack.features.allthreads.AllThreadsActivity} display=0 updateInputWindows = true
+07-26 10:20:10.768  1708  2049 D WindowManager: Focus not requested for window=Window{58ef375 u0 com.Slack/slack.features.allthreads.AllThreadsActivity} because it has no surface or is not focusable.
+07-26 10:20:10.857  1708  2738 D WindowManager: Input focus has changed to Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 10:20:10.858  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:10.904  1708  4426 D WindowManager: finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity} in Surface(name=com.Slack/slack.features.home.HomeActivity)/@0x73b2c
+07-26 10:20:11.403  1708  2049 D WindowManager: shouldDeferAnimationFinish ActivityRecord{a2c2bb2 u0 com.Slack/slack.features.allthreads.AllThreadsActivity t1306 f}}, anim = com.android.server.wm.LocalAnimationAdapter@56e4906
+07-26 10:20:11.413  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:13.409  1708  4378 D PerfShielderService: com.Slack|com.Slack/slack.features.home.HomeActivity|254|357919354940591|75|2|7
+07-26 10:20:13.410  4389 17681 W MiuiPerfServiceClient: interceptAndQueuing:14351|com.Slack|254|75|357919354940591|Slow handle animation|7
+07-26 10:20:13.516  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:13.571  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:13.578  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:13.617  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:13.619  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:13.621  1708  4378 D ActivityTaskManager:  setRequestedOrientationFreeForm: requestedOrientation= -1 task=Task{808411 #1306 type=standard A=10460:com.Slack U=0 visible=true mode=fullscreen translucent=false sz=1} MiuiFreeformServicesUtils.getFreeformIgnoreRequestOrientationList()= [com.miui.player, com.sqw.setdl.mi, air.tv.douyu.android, com.youku.phone, com.tencent.gamehelper.smoba, com.taobao.litetao, com.live.shuoqiudi, com.baidu.homework, com.tencent.qqmusic, cn.xiaochuankeji.zuiyouLite, com.facebook.orca, com.android.browser, com.alibaba.android.rimet]packageName= com.Slack
+07-26 10:20:17.445  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:20:17.468  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:20:18.695  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:20:18.697  1708  2103 I ActivityManager: Start proc 15417:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:20:26.960  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 10:20:27.192  1708  4379 D WindowManager: Input focus has changed to Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity} display=0 updateInputWindows = true
+07-26 10:20:27.568  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:20:27.588  1708  2098 I PeriodicCleaner: current focused package: com.Slack
+07-26 10:20:28.036  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:28.062  1708  2044 I WindowManager: isGestureIsolated-->curAppPackageName:com.Slack
+07-26 10:20:28.158  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=false, changed=true
+07-26 10:20:28.671  1708  2049 D WindowManager: Update InputWindowHandle: 7ec8ee6 com.Slack/slack.features.home.HomeActivity, frame=[0,0,1080,2340], touchableRegion=SkRegion((0,0,1080,2340)), visible=true, focusable=true, changed=true
+07-26 10:20:28.700  1708  2048 I SmartPower.com.Slack/10460(14351): visible->invisible(43454ms) R(become invisible) adj=0.
+07-26 10:20:28.700  1708  2048 I SmartPower.com.Slack/10460(14351): invisible->background(0ms) R(become background) adj=0.
+07-26 10:20:28.701  1708  2445 I SmartPower: com.Slack/10460 state=foreground adj=0 proc size=1 move to inactive become invisible
+07-26 10:20:29.466  1708  2944 D PackageManager: set app  component=com.Slack/slack.features.customstatus.widget.CustomStatusWidgetReceiver enabled state: 2 from null,uid=10460,pid=14351
+07-26 10:20:32.837  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:20:32.837  1708  2103 I ActivityManager: Start proc 15844:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:20:47.618  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:20:47.619  1708  2103 I ActivityManager: Start proc 16506:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:21:12.689  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:21:12.690  1708  2103 I ActivityManager: Start proc 17683:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:22:24.928   833  1280 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 10:22:26.807  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:22:26.808  1708  2103 I ActivityManager: Start proc 19987:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:22:57.357  1708  2103 D Boost   : hostingType=service, hostingName={com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:22:57.358  1708  2103 I ActivityManager: Start proc 21195:com.android.chrome/u0a203 for service {com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService} caller=com.Slack
+07-26 10:23:37.206  1708  2159 I ProcessSceneCleaner: SwipeUpClean: kill procName=com.Slack info=AS:90018
+07-26 10:23:37.206  1708  2159 I ActivityManager: Killing 14351:com.Slack/u0a460 (adj 900): SwipeUpClean
+07-26 10:23:37.206  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=14351, reason=SwipeUpClean
+07-26 10:23:37.208  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 10:23:37.208  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=2
+07-26 10:23:37.209  1708  2159 I SmartPower.com.Slack/10460(14351): background->died(188509ms) R(process died ) adj=900.
+07-26 10:23:37.210  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=900 proc size=1 move to died process died 
+07-26 10:23:37.314  1708  1780 I WindowManager: WIN DEATH: Window{7ec8ee6 u0 com.Slack/slack.features.home.HomeActivity}
+07-26 10:23:37.320  1708  3049 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:23:37.329  1708  2088 W UsageStatsService: Unexpected activity event reported! (com.Slack/slack.features.home.HomeActivity event : 23 instanceId : 184104413)
+07-26 10:26:51.467  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 10:26:51.468  1708  2103 I ActivityManager: Start proc 27674:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 10:26:51.519  1708  2851 I SmartPower.com.Slack/10460(27674): died->background(194310ms) R(process start ) adj=-10000.
+07-26 10:26:51.519  1708  2445 I SmartPower: com.Slack/10460 state=died adj=900 proc size=1 move to background process start 
+07-26 10:26:51.853  1708  4380 I UiModeManager: systemserver package:com.Slack null
+07-26 10:26:51.854 27674 27674 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:26:52.484  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 10:33:27.633  1708  3361 I ActivityManager: Killing 27674:com.Slack/u0a460 (adj 955): empty #14
+07-26 10:33:27.633  1708  3361 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=27674, reason=empty #14
+07-26 10:33:27.634  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 10:33:27.635  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=5
+07-26 10:33:27.635  1708  3361 I SmartPower.com.Slack/10460(27674): background->died(396116ms) R(process died ) adj=955.
+07-26 10:33:27.636  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 10:33:27.732  1708  4452 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:36:44.009  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/slack.services.notifications.push.impl.NotificationActionIntentService}, callerPackage=com.Slack, isSystem=false, isBoostNeeded=false.
+07-26 10:36:44.011  1708  2103 I ActivityManager: Start proc 30779:com.Slack/u0a460 for service {com.Slack/slack.services.notifications.push.impl.NotificationActionIntentService} caller=com.Slack
+07-26 10:36:44.063  1708  3361 I SmartPower.com.Slack/10460(30779): died->background(196428ms) R(process start ) adj=-10000.
+07-26 10:36:44.063  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 10:36:44.360  1708  3361 I UiModeManager: systemserver package:com.Slack null
+07-26 10:36:44.361 30779 30779 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:36:44.740  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 10:37:12.677  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:91519
+07-26 10:37:12.677  1708  2159 I ActivityManager: Killing 30779:com.Slack/u0a460 (adj 915): UserDefined
+07-26 10:37:12.677  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=30779, reason=UserDefined
+07-26 10:37:12.680  1708  2159 I SmartPower.com.Slack/10460(30779): background->died(28616ms) R(process died ) adj=915.
+07-26 10:37:12.680  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=915 proc size=1 move to died process died 
+07-26 10:37:12.735  1708  4451 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:37:23.985  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 10:37:23.986  1708  2103 I ActivityManager: Start proc 1682:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 10:37:24.059  1708  4426 I SmartPower.com.Slack/10460(1682): died->background(11380ms) R(process start ) adj=-10000.
+07-26 10:37:24.060  1708  2445 I SmartPower: com.Slack/10460 state=died adj=915 proc size=1 move to background process start 
+07-26 10:37:24.845  1708  4183 I UiModeManager: systemserver package:com.Slack null
+07-26 10:37:24.851  1682  1682 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:37:28.227  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 10:37:28.826  1708  4204 I SmartPower.com.Slack/10460(1682): background->died(4766ms) R(process died ) adj=905.
+07-26 10:37:28.826  1708  4204 I ActivityManager: Process com.Slack (pid 1682) has died: cch+5 CEM 
+07-26 10:37:28.827  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 10:37:28.831  1708  4204 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:37:43.432   833  1280 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 10:37:53.335  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 10:37:53.336  1708  2103 I ActivityManager: Start proc 4427:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 10:37:53.403  1708  4201 I SmartPower.com.Slack/10460(4427): died->background(24577ms) R(process start ) adj=-10000.
+07-26 10:37:53.403  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 10:37:53.906  1708  2788 I UiModeManager: systemserver package:com.Slack null
+07-26 10:37:53.907  4427  4427 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:37:54.528  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 10:38:07.581  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:90519
+07-26 10:38:07.582  1708  2159 I ActivityManager: Killing 4427:com.Slack/u0a460 (adj 905): UserDefined
+07-26 10:38:07.583  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=4427, reason=UserDefined
+07-26 10:38:07.588  1708  2159 I SmartPower.com.Slack/10460(4427): background->died(14185ms) R(process died ) adj=905.
+07-26 10:38:07.588  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 10:38:07.655  1708  4330 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:48:42.580  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 10:48:42.581  1708  2103 I ActivityManager: Start proc 8605:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 10:48:42.627  1708  1776 I SmartPower.com.Slack/10460(8605): died->background(635040ms) R(process start ) adj=-10000.
+07-26 10:48:42.628  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 10:48:43.031  1708  4543 I UiModeManager: systemserver package:com.Slack null
+07-26 10:48:43.033  8605  8605 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:48:43.527  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 10:55:41.686   833  1280 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 10:56:58.693  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:95519
+07-26 10:56:58.693  1708  2159 I ActivityManager: Killing 8605:com.Slack/u0a460 (adj 955): UserDefined
+07-26 10:56:58.693  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=8605, reason=UserDefined
+07-26 10:56:58.696  1708  2159 I SmartPower.com.Slack/10460(8605): background->died(496068ms) R(process died ) adj=955.
+07-26 10:56:58.696  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 10:56:59.273  1708  1776 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 10:59:55.703  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 10:59:55.704  1708  2103 I ActivityManager: Start proc 11516:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 10:59:55.763  1708  2899 I SmartPower.com.Slack/10460(11516): died->background(177067ms) R(process start ) adj=-10000.
+07-26 10:59:55.763  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 10:59:56.128  1708  4452 I UiModeManager: systemserver package:com.Slack null
+07-26 10:59:56.130 11516 11516 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 10:59:56.849  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 11:00:53.308  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:91519
+07-26 11:00:53.309  1708  2159 I ActivityManager: Killing 11516:com.Slack/u0a460 (adj 915): UserDefined
+07-26 11:00:53.309  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=11516, reason=UserDefined
+07-26 11:00:53.313  1708  2159 I SmartPower.com.Slack/10460(11516): background->died(57550ms) R(process died ) adj=915.
+07-26 11:00:53.313  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=915 proc size=1 move to died process died 
+07-26 11:00:53.439  1708  4453 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 11:03:03.420  1708  9920 I BackgroundDexOptService: Pinning optimized code {com.google.android.youtube, com.google.android.ext.services, com.android.dynsystem, com.goodix.fingerprint, com.sbi.lotusintouch, com.android.providers.calendar, com.google.android.apps.googleassistant, org.telegram.messenger, com.google.android.apps.docs.editors.docs, com.qti.service.colorservice, com.huaqin.sarcontroller, com.xiaomi.cameratools, com.whatsapp, com.qualcomm.qti.uceShimService, com.google.android.apps.docs.editors.sheets, com.miui.msa.global, vendor.qti.hardware.cacert.server, com.qualcomm.qti.telephonyservice, vendor.qti.iwlan, com.google.android.configupdater, com.xiaomi.barrage, com.miui.daemon, com.wapi.wapicertmanage, com.miui.hybrid, com.olx.southasia, com.instagram.android, com.android.provision, org.codeaurora.ims, in.startv.hotstar, com.qualcomm.qti.xrvd.service, org.ifaa.aidl.manager, pw.ninthfi.myincome, com.google.android.apps.docs, com.qti.snapdragon.qdcm_ff, com.xiaomi.glgm, com.xiaomi.xmsf, com.google.android.packageinstaller, com.google.android.gsf, com.google.android.ims, com.google.android.tts, com.google.android.partnersetup, com.android.localtransport, com.xiaomi.finddevice, com.xiaomi.joyose, com.miui.wmsvc, com.google.android.printservice.recommendation, com.xiaomi.midrop, com.google.android.apps.photos, com.fingerprints.sensortesttool, com.mventus.selfcare.activity, com.microsoft.office.officehubrow, com.miui.audiomonitor, com.miui.touchassistant, com.application.zomato.district, com.mi.AutoTest, com.keka.xhr, com.miui.miwallpaper, com.Slack, com.xiaomi.bluetooth, com.google.android.networkstack.permissionconfig, com.miui.analytics, com.linkedin.android, org.mipay.android.manager, com.qualcomm.location, com.xiaomi.scanner, com.google.android.safetycore, com.huaqin.diaglogger, com.digilocker.android, com.fedmobile, com.qualcomm.qti.services.secureui, com.android.hotspot2.osulogin, com.qualcomm.qti.qdma, com.google.android.gms.location.history, com.android.thememanager, com.google.android.cellbroadcastreceiver, com.android.bluetooth, com.mi.globalminusscreen, com.facemoji.lite.xiaomi, com.google.android.photopicker, com.miui.face, com.miui.home}
+07-26 11:04:31.050  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 11:04:31.051  1708  2103 I ActivityManager: Start proc 15387:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 11:04:31.098  1708  2851 I SmartPower.com.Slack/10460(15387): died->background(217786ms) R(process start ) adj=-10000.
+07-26 11:04:31.099  1708  2445 I SmartPower: com.Slack/10460 state=died adj=915 proc size=1 move to background process start 
+07-26 11:04:31.453  1708  2944 I UiModeManager: systemserver package:com.Slack null
+07-26 11:04:31.455 15387 15387 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 11:04:31.944  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 11:06:58.401  1708  4453 I ActivityManager: Killing 15387:com.Slack/u0a460 (adj 955): empty #13
+07-26 11:06:58.402  1708  4453 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=15387, reason=empty #13
+07-26 11:06:58.415  1708  4453 I SmartPower.com.Slack/10460(15387): background->died(147317ms) R(process died ) adj=955.
+07-26 11:06:58.416  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 11:06:58.418  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 11:06:58.420  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=2
+07-26 11:06:58.479  1708  4451 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 11:08:43.763 17686 17798 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 11:18:42.808 17686 17798 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 11:19:52.484  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 11:19:52.485  1708  2103 I ActivityManager: Start proc 22925:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 11:19:52.523  1708  1776 I SmartPower.com.Slack/10460(22925): died->background(774107ms) R(process start ) adj=-10000.
+07-26 11:19:52.523  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 11:19:53.498  1708  3197 I UiModeManager: systemserver package:com.Slack null
+07-26 11:19:53.499 22925 22925 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 11:19:54.014  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 11:25:41.745 17686 17798 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 11:45:41.724 17686 17798 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 11:47:56.906 25775 25882 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 11:57:54.269  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:96519
+07-26 11:57:54.270  1708  2159 I ActivityManager: Killing 22925:com.Slack/u0a460 (adj 965): UserDefined
+07-26 11:57:54.270  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=22925, reason=UserDefined
+07-26 11:57:54.273  1708  2159 I SmartPower.com.Slack/10460(22925): background->died(2281750ms) R(process died ) adj=965.
+07-26 11:57:54.273  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=965 proc size=1 move to died process died 
+07-26 11:57:54.324  1708  2317 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 11:58:18.221 28715 28773 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:03:30.247 25775 25882 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:07:20.705  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 12:07:20.708  1708  2103 I ActivityManager: Start proc 3508:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 12:07:20.772  1708  4375 I SmartPower.com.Slack/10460(3508): died->background(566499ms) R(process start ) adj=-10000.
+07-26 12:07:20.772  1708  2445 I SmartPower: com.Slack/10460 state=died adj=965 proc size=1 move to background process start 
+07-26 12:07:21.271  1708  4375 I UiModeManager: systemserver package:com.Slack null
+07-26 12:07:21.273  3508  3508 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 12:07:21.972  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 12:11:00.629  1708  4451 I ActivityManager: Killing 3508:com.Slack/u0a460 (adj 955): empty #13
+07-26 12:11:00.629  1708  4451 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=3508, reason=empty #13
+07-26 12:11:00.633  1708  4451 I SmartPower.com.Slack/10460(3508): background->died(219861ms) R(process died ) adj=955.
+07-26 12:11:00.633  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 12:11:00.639  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 12:11:00.639  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=1
+07-26 12:11:00.736  1708  4375 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 12:18:22.379 25775 25882 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:18:32.553 25775 25882 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:18:45.188 25775 25882 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:18:51.610  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 12:18:51.611  1708  2103 I ActivityManager: Start proc 5976:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 12:18:51.668  1708  4375 I SmartPower.com.Slack/10460(5976): died->background(471036ms) R(process start ) adj=-10000.
+07-26 12:18:51.668  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 12:18:52.102  1708  4375 I UiModeManager: systemserver package:com.Slack null
+07-26 12:18:52.104  5976  5976 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 12:18:52.746  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 12:20:18.365  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:95519
+07-26 12:20:18.366  1708  2159 I ActivityManager: Killing 5976:com.Slack/u0a460 (adj 955): UserDefined
+07-26 12:20:18.371  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=5976, reason=UserDefined
+07-26 12:20:18.375  1708  2159 I SmartPower.com.Slack/10460(5976): background->died(86707ms) R(process died ) adj=955.
+07-26 12:20:18.377  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 12:20:18.476  1708  3361 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 12:32:36.382 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:34:40.182  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 12:34:40.183  1708  2103 I ActivityManager: Start proc 12242:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 12:34:40.235  1708  4451 I SmartPower.com.Slack/10460(12242): died->background(861860ms) R(process start ) adj=-10000.
+07-26 12:34:40.235  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 12:34:40.985  1708  3194 I UiModeManager: systemserver package:com.Slack null
+07-26 12:34:40.986 12242 12242 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 12:34:41.614  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 12:35:06.239  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:90519
+07-26 12:35:06.239  1708  2159 I ActivityManager: Killing 12242:com.Slack/u0a460 (adj 905): UserDefined
+07-26 12:35:06.243  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=12242, reason=UserDefined
+07-26 12:35:06.248  1708  2159 I SmartPower.com.Slack/10460(12242): background->died(26012ms) R(process died ) adj=905.
+07-26 12:35:06.248  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 12:35:06.308  1708  1780 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 12:50:41.813 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 12:59:48.361  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 12:59:48.362  1708  2103 I ActivityManager: Start proc 15442:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 12:59:48.420  1708  4350 I SmartPower.com.Slack/10460(15442): died->background(1482172ms) R(process start ) adj=-10000.
+07-26 12:59:48.420  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 12:59:48.864  1708  2317 I UiModeManager: systemserver package:com.Slack null
+07-26 12:59:48.865 15442 15442 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 12:59:49.517  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 13:09:00.402 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 13:11:59.223  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:91519
+07-26 13:11:59.223  1708  2159 I ActivityManager: Killing 15442:com.Slack/u0a460 (adj 915): UserDefined
+07-26 13:11:59.223  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=15442, reason=UserDefined
+07-26 13:11:59.226  1708  2159 I SmartPower.com.Slack/10460(15442): background->died(730807ms) R(process died ) adj=915.
+07-26 13:11:59.227  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=915 proc size=1 move to died process died 
+07-26 13:11:59.312  1708  4378 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 13:12:47.255 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 13:15:09.927  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 13:15:09.928  1708  2103 I ActivityManager: Start proc 23127:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 13:15:09.972  1708  2851 I SmartPower.com.Slack/10460(23127): died->background(190745ms) R(process start ) adj=-10000.
+07-26 13:15:09.972  1708  2445 I SmartPower: com.Slack/10460 state=died adj=915 proc size=1 move to background process start 
+07-26 13:15:10.445  1708  2851 I UiModeManager: systemserver package:com.Slack null
+07-26 13:15:10.448 23127 23127 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 13:15:10.908  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 13:18:51.193 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 13:29:56.665  1708  4379 I ActivityManager: Killing 23127:com.Slack/u0a460 (adj 955): empty #13
+07-26 13:29:56.666  1708  4379 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=23127, reason=empty #13
+07-26 13:29:56.671  1708  4379 I SmartPower.com.Slack/10460(23127): background->died(886700ms) R(process died ) adj=955.
+07-26 13:29:56.671  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 13:29:56.675  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 13:29:56.675  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=1
+07-26 13:29:56.816  1708  2851 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 13:29:57.034 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 13:30:27.101  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 13:30:27.109  1708  2103 I ActivityManager: Start proc 31553:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 13:30:27.220  1708  4183 I SmartPower.com.Slack/10460(31553): died->background(30548ms) R(process start ) adj=-10000.
+07-26 13:30:27.221  1708  2445 I SmartPower: com.Slack/10460 state=died adj=955 proc size=1 move to background process start 
+07-26 13:30:27.978  1708  2788 I UiModeManager: systemserver package:com.Slack null
+07-26 13:30:27.979 31553 31553 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 13:30:29.069  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 13:30:36.856  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:90519
+07-26 13:30:36.856  1708  2159 I ActivityManager: Killing 31553:com.Slack/u0a460 (adj 905): UserDefined
+07-26 13:30:36.857  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=31553, reason=UserDefined
+07-26 13:30:36.858  1708  2159 I SmartPower.com.Slack/10460(31553): background->died(9639ms) R(process died ) adj=905.
+07-26 13:30:36.859  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 13:30:36.906  1708  4183 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 13:34:04.466 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 13:51:23.824 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:15:41.743 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:18:52.102 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:19:54.518  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 14:19:54.519  1708  2103 I ActivityManager: Start proc 11205:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 14:19:54.588  1708  3194 I SmartPower.com.Slack/10460(11205): died->background(2957729ms) R(process start ) adj=-10000.
+07-26 14:19:54.588  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 14:19:55.160  1708  3176 I UiModeManager: systemserver package:com.Slack null
+07-26 14:19:55.161 11205 11205 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 14:19:55.661  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 14:30:51.604 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:38:21.951  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:90519
+07-26 14:38:21.951  1708  2159 I ActivityManager: Killing 11205:com.Slack/u0a460 (adj 905): UserDefined
+07-26 14:38:21.951  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=11205, reason=UserDefined
+07-26 14:38:21.954  1708  2159 I SmartPower.com.Slack/10460(11205): background->died(1107366ms) R(process died ) adj=905.
+07-26 14:38:21.955  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 14:38:22.067  1708  4350 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 14:43:36.032 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:52:44.248  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 14:52:44.249  1708  2103 I ActivityManager: Start proc 22927:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 14:52:44.326  1708  4426 I SmartPower.com.Slack/10460(22927): died->background(862372ms) R(process start ) adj=-10000.
+07-26 14:52:44.326  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 14:52:44.490  6010  7434 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:52:44.768  1708  4204 I UiModeManager: systemserver package:com.Slack null
+07-26 14:52:44.772 22927 22927 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 14:52:45.339  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive service end com.Slack/androidx.work.impl.background.systemjob.SystemJobService
+07-26 14:58:54.411 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 14:59:00.812  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:90519
+07-26 14:59:00.812  1708  2159 I ActivityManager: Killing 22927:com.Slack/u0a460 (adj 905): UserDefined
+07-26 14:59:00.813  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=22927, reason=UserDefined
+07-26 14:59:00.815  1708  2159 I SmartPower.com.Slack/10460(22927): background->died(376489ms) R(process died ) adj=905.
+07-26 14:59:00.816  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=905 proc size=1 move to died process died 
+07-26 14:59:00.881  1708  4381 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 15:09:46.206  1708  2103 D Boost   : hostingType=broadcast, hostingName={com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver}, callerPackage=com.google.android.gms, isSystem=true, isBoostNeeded=false.
+07-26 15:09:46.207  1708  2103 I ActivityManager: Start proc 25179:com.Slack/u0a460 for broadcast {com.Slack/com.google.firebase.iid.FirebaseInstanceIdReceiver} caller=com.google.android.gms
+07-26 15:09:46.277  1708  3361 I SmartPower.com.Slack/10460(25179): died->background(645463ms) R(process start ) adj=-10000.
+07-26 15:09:46.278  1708  2445 I SmartPower: com.Slack/10460 state=died adj=905 proc size=1 move to background process start 
+07-26 15:09:46.746  1708  4543 I UiModeManager: systemserver package:com.Slack null
+07-26 15:09:46.748 25179 25179 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 15:09:47.445  1708  2445 I SmartPower: com.Slack/10460 state=background adj=0 proc size=1 move to inactive service end com.Slack/slack.services.notifications.push.impl.SlackFirebaseMessagingService
+07-26 15:14:55.574 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 15:15:09.434  1708  2159 I ProcessSceneCleaner: UserDefined: kill procName=com.Slack info=AS:93519
+07-26 15:15:09.434  1708  2159 I ActivityManager: Killing 25179:com.Slack/u0a460 (adj 935): UserDefined
+07-26 15:15:09.435  1708  2159 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=25179, reason=UserDefined
+07-26 15:15:09.437  1708  2159 I SmartPower.com.Slack/10460(25179): background->died(323160ms) R(process died ) adj=935.
+07-26 15:15:09.438  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=935 proc size=1 move to died process died 
+07-26 15:15:09.486  1708  4543 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 15:16:28.231  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:16:28.877  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:16:28.879  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:16:39.391  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:16:39.828  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:16:55.623 25046 25083 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:17:00.529  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:19.774  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:20.113  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:38.271  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:38.472  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:38.473  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:48.281  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:48.284  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:48.289  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:17:48.290  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:17:48.290  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:18:52.919 10509 10681 D test##>>: com.Slack=220-18.465331168888888-0
+07-26 15:18:53.014 10509 10681 I PowerRankHelperHolder: screenPowerMap {android=0.22297165055555557, pw.ninthfi.myincome=11.290177053055555, com.ace.ex.file.manager=0.9528567197222223, com.instagram.android=171.99533760472224, com.google.android.apps.messaging=8.839089409166668, in.amazon.mShop.android.shopping=1.363255027777778, com.facebook.appmanager=0.1833285288888889, com.google.android.googlequicksearchbox=2.007163031388889, com.miui.home=51.331836996666674, org.telegram.messenger=13.309969011388889, com.google.android.permissioncontroller=0.031112323333333334, com.whatsapp=93.69193551083333, com.Slack=18.465331168888888, com.android.deskclock=1.5112612258333336, com.google.android.apps.docs.editors.docs=12.674257265000001, com.android.vending=0.2861162852777778, com.miui.android.fashiongallery=0.3654071091666667, com.android.chrome=26.092868502222224, com.xiaomi.calendar=1.821659985277778, com.google.android.dialer=24.052842001111113, com.google.android.apps.nbu.paisa.user=8.393255781666667, com.android.camera=2.8055453930555556, com.keka.xhr=18.64953024888889, com.google.android.apps.docs=0.5114297236111112, com.google.android.youtube=57.84157266416668, com.mventus.selfcare.activity=27.932091895833334, com.android.settings=0.20315008972222223}
+07-26 15:19:27.862  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:19:27.898  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:21:40.156 29951 30038 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:21:41.569  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:21:44.186  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:21:44.475  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:21:48.493 29951 30036 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:22:02.167  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:22:07.426  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:22:07.702  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:33.953  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:33.974  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:33.984  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:34.085  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:34.088  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:35.628 31541 31598 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:23:36.520  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.538  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.551  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.552  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.555  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.555  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:23:36.555  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:23:36.696  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.697  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.722  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.724  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.814  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.838  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.893  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:36.894  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:43.939  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.531  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.532  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.535  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.535  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:23:46.535  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:23:46.666  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.681  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.877  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.884  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.885  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.887  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.887  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:23:46.887  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:23:46.899  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.914  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:46.914  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:47.791  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:23:48.245  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:24:53.667 31541 31597 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:24:57.098  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:00.562  1708  2103 D Boost   : hostingType=service, hostingName={com.Slack/androidx.work.impl.background.systemjob.SystemJobService}, callerPackage=android, isSystem=true, isBoostNeeded=false.
+07-26 15:25:00.564  1708  2103 I ActivityManager: Start proc 32519:com.Slack/u0a460 for service {com.Slack/androidx.work.impl.background.systemjob.SystemJobService} caller=android
+07-26 15:25:00.613 32519 32519 I com.Slack: Using CollectorTypeCC GC.
+07-26 15:25:00.633  1708  2317 I SmartPower.com.Slack/10460(32519): died->background(591195ms) R(process start ) adj=-10000.
+07-26 15:25:00.633  1708  2445 I SmartPower: com.Slack/10460 state=died adj=935 proc size=1 move to background process start 
+07-26 15:25:00.804  4389 22385 W MQSService: CallerName:com.Slack,calling Uid:10460
+07-26 15:25:00.805  4389 22385 D MQSService: registerApplicationScoutThread pid = 32519, packageName = com.Slack
+07-26 15:25:01.243 32519 32519 W ziparchive: Unable to open '/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.dm': No such file or directory
+07-26 15:25:01.243 32519 32519 W ziparchive: Unable to open '/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.dm': No such file or directory
+07-26 15:25:01.263 32519 32519 W com.Slack: Entry not found
+07-26 15:25:01.264 32519 32519 W ziparchive: Unable to open '/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.xxhdpi.dm': No such file or directory
+07-26 15:25:01.265 32519 32519 W ziparchive: Unable to open '/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.xxhdpi.dm': No such file or directory
+07-26 15:25:01.268 32519 32519 W com.Slack: Entry not found
+07-26 15:25:01.272 32519 32519 D nativeloader: Configuring clns-4 for other apk /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/base.apk:/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk:/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.xxhdpi.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/lib/arm64:/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/base.apk!/lib/arm64-v8a:/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a:/data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.xxhdpi.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.Slack
+07-26 15:25:01.324 32519 32519 V GraphicsEnvironment: ANGLE Developer option for 'com.Slack' set to: 'default'
+07-26 15:25:01.330  1708  4350 I UiModeManager: systemserver package:com.Slack null
+07-26 15:25:01.331 32519 32519 I ForceDarkHelperStubImpl: initialize for com.Slack , ForceDarkAppConfig: null
+07-26 15:25:01.505 32519 32666 D nativeloader: Load /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libbugsnag-root-detection.so using ns clns-4 from class loader (caller=base.apk): ok
+07-26 15:25:01.640 32519 32664 D nativeloader: Load /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libbugsnag-ndk.so using ns clns-4 from class loader (caller=base.apk): ok
+07-26 15:25:01.688 32519 32664 D nativeloader: Load /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libbugsnag-plugin-android-anr.so using ns clns-4 from class loader (caller=base.apk): ok
+07-26 15:25:01.706  1708  2851 D ConnectivityService: requestNetwork for uid/pid:10460/32519 activeRequest: null callbackRequest: 48138 [NetworkRequest [ REQUEST id=48139, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+07-26 15:25:01.711  1708  2383 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=48139, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:01.713  1708  2383 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=48139, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:01.715  1708  2383 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=48139, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:01.950 32519 32519 D nativeloader: Load /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libsqlite3x.so using ns clns-4 from class loader (caller=base.apk!classes2.dex): ok
+07-26 15:25:02.179 32519 32719 W com.Slack: Long monitor contention with owner main (32519) at io.requery.android.database.sqlite.SQLiteDatabase io.requery.android.database.sqlite.SQLiteOpenHelper.getWritableDatabase()(SourceFile:3) waiters=0 in io.requery.android.database.sqlite.SQLiteDatabase io.requery.android.database.sqlite.SQLiteOpenHelper.getWritableDatabase() for 304ms
+07-26 15:25:02.399  1708  2445 I SmartPower: com.Slack/10460 state=background adj=250 proc size=1 move to inactive adj below visible
+07-26 15:25:02.607  1708  2851 D ConnectivityService: requestNetwork for uid/pid:10460/32519 activeRequest: null callbackRequest: 48140 [NetworkRequest [ REQUEST id=48141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+07-26 15:25:02.612  1708  2383 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=48141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:02.629  1708  2383 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=48141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:02.629  1708  2383 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=48141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ]
+07-26 15:25:02.938 32519 32705 W com.Slack: Long monitor contention with owner WM.task-4 (535) at android.net.NetworkRequest android.net.ConnectivityManager.sendRequestForNetwork(int, android.net.NetworkCapabilities, android.net.ConnectivityManager$NetworkCallback, int, android.net.NetworkRequest$Type, int, android.net.ConnectivityManager$CallbackHandler)(ConnectivityManager.java:4749) waiters=0 in void android.net.ConnectivityManager$CallbackHandler.handleMessage(android.os.Message) for 325ms
+07-26 15:25:02.959 32519   356 D nativeloader: Load /data/app/~~xWo2p_gTztvg4KocAC1umQ==/com.Slack-Nm6ZCTKejM7TYxfDwbbWgA==/split_config.arm64_v8a.apk!/lib/arm64-v8a/libsyncer-jni.so using ns clns-4 from class loader (caller=base.apk!classes2.dex): ok
+07-26 15:25:05.224 32519   846 E SQLiteLog: (283) recovered 168 frames from WAL file /data/data/com.Slack/databases/telemetry_db-wal
+07-26 15:25:08.265 32519  1220 D ProfileInstaller: Skipping profile installation for com.Slack
+07-26 15:25:30.623  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:30.707  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:30.727  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:30.742  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:30.745  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.258  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.292  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.324  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.325  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.327  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.327  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:25:33.327  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:25:33.472  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.475  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.501  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.503  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.681  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.708  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.867  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:33.868  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.460  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.470  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.665  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.675  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.676  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.678  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.678  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:25:36.678  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:25:36.691  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.705  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:36.706  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:46.708  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:46.709  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:46.711  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:25:46.711  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:25:46.711  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:26:15.611  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:16.028  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:20.969  1708  4542 I ActivityManager: Killing 32519:com.Slack/u0a460 (adj 955): empty #13
+07-26 15:26:20.970  1708  4542 W PreloadController: notify...pkgName=com.Slack, userId=0, processName=com.Slack, pid=32519, reason=empty #13
+07-26 15:26:20.972  1708  4542 I SmartPower.com.Slack/10460(32519): background->died(80340ms) R(process died ) adj=955.
+07-26 15:26:20.973  1708  2445 I SmartPower: com.Slack/10460 state=inactive adj=955 proc size=1 move to died process died 
+07-26 15:26:20.973  1708  2437 W PreloadManager: Failed : usage, pkg=com.Slack
+07-26 15:26:20.973  1708  2437 W PreloadController: Will not preload com.Slack, decision = false, mMonitor.size()=3
+07-26 15:26:21.019  1708  2395 D ConnectivityService: releasing NetworkRequest [ REQUEST id=48141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ] (release request)
+07-26 15:26:21.019  1708  4542 D ProcessManager: skip restart com.Slack because this device is a lowmemory device!
+07-26 15:26:21.020  1708  2395 D ConnectivityService: releasing NetworkRequest [ REQUEST id=48139, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10460 RequestorUid: 10460 RequestorPkg: com.Slack UnderlyingNetworks: Null] ] (release request)
+07-26 15:26:30.865  4076  4143 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:26:35.215  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:35.295  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:35.356  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:35.359  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:35.362  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.746  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.782  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.824  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.825  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.829  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.829  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:26:41.829  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:26:41.952  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.953  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.964  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:41.966  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:42.023  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:42.040  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:42.102  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:42.103  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:45.080  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.445  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.456  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.657  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.666  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.667  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.670  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.670  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:26:47.670  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:26:47.691  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.705  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:47.706  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:48.903  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:49.216  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:57.716  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:57.720  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:57.742  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:26:57.742  2884  2884 D InterruptionStateProvider: No alerting: filtered notification: 0|com.Slack|979554404|null|10460
+07-26 15:26:57.742  2884  2884 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.Slack|-1693471365|null|10460
+07-26 15:27:00.828  4076  4142 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.android.apps.messaging.ui.ConversationListActivity', from='0'}, AppInfo{uid=10272, pkg='com.cv.docscanner', activity='com.cv.docscanner.activity.AppMainActivity', from='0'}, AppInfo{uid=10420, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10439, pkg='com.whereismytrain.android', activity='com.whereismytrain.view.activities.MainPagerActivity', from='2'}, AppInfo{uid=10193, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10259, pkg='com.google.android.apps.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10468, pkg='pw.ninthfi.myincome', activity='pw.ninthfi.myincome.presentation.base.activity.MainActivity', from='2'}, AppInfo{uid=10460, pkg='com.Slack', activity='slack.features.home.HomeActivity', from='2'}, AppInfo{uid=10092, pkg='com.google.android.documentsui', activity='com.android.documentsui.LauncherActivity', from='2'}, AppInfo{uid=10241, pkg='com.cris.utsmobile', activity='com.cris.ima.utsonmobile.mainmenuitems.SplashActivity', from='2'}, AppInfo{uid=10250, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10137, pkg='com.android.deskclock', activity='com.android.deskclock.DeskClockTabActivity', from='2'}, AppInfo{uid=10274, pkg='com.canva.editor', activity='com.canva.app.editor.splash.SplashActivity', from='2'}, AppInfo{uid=10281, pkg='com.flipkart.android', activity='com.flipkart.android.SplashActivity', from='2'}, AppInfo{uid=10472, pkg='com.heytap.headset', activity='com.heytap.headset.component.startup.StartupActivity', from='2'}, AppInfo{uid=10263, pkg='org.videolan.vlc', activity='org.videolan.vlc.StartActivity', from='2'}, AppInfo{uid=10459, pkg='com.keka.xhr', activity='com.keka.xhr.base.ui.MainActivity', from='2'}, AppInfo{uid=10269, pkg='com.google.android.apps.docs.editors.docs', activity='com.google.android.apps.docs.app.NewMainProxyActivity', from='2'}, AppInfo{uid=10197, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10287, pkg='org.chromium.webapk.a40fd5da56db0dba8_v2', activity='org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity', from='2'}, AppInfo{uid=10288, pkg='com.disha.quickride', activity='com.disha.quickride.androidapp.startup.QRSplashActivity', from='2'}, AppInfo{uid=10251, pkg='com.tenacious.flixfox', activity='com.gxgx.daqiandy.ui.splash.SplashActivity', from='2'}]
+07-26 15:27:03.612  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:27:29.946  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:27:30.699  2884  2884 D NotificationFilterController: filter group summary suppressed key=0|com.Slack|979554404|null|10460
+07-26 15:29:07.862  6759  6809 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10255, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10279, pkg='com.olam', activity='com.olam.MainActivity', from='0'}, AppInfo{uid=10068, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='0'}, AppInfo{uid=10175, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='0'}, AppInfo{uid=10258, pkg='org.telegram.messenger', activity='org.telegram.messenger.DefaultIcon', from='0'}, AppInfo{uid=10133, pkg='com.miui.notes', activity='com.miui.notes.ui.NotesListActivity', from='0'}, AppInfo{uid=10059, pkg='com.android.providers.downloads.ui', activity='com.android.providers.downloads.ui.DownloadList', from='0'}, AppInfo{uid=10268, pkg='com.ace.ex.file.manager', activity='com.ace.fileexplorer.feature.activity.AceFirstActivity', from='0'}, AppInfo{uid=10200, pkg='com.google.android.apps.messaging', activity='com.google.an
