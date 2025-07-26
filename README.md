@@ -38,3 +38,5 @@
 9. `adb logcat | findstr com.Slack > "C:\Users\NETCOM\Desktop\Cavli_Training\adb_work\9.Realtime log\app_log.txt"`  
    → Monitor realtime logs for slack.
 
+10. `adb shell input keyevent <keycode>`  
+   → Simulate hardware keypress based on keycode.
