@@ -28,3 +28,13 @@
 
 7. `adb shell pm list packages > "C:\Users\NETCOM\Desktop\Cavli_Training\adb_work\7.List installed packages\installed_packages.txt"`  
    → Listing installed packages on device.
+
+8. `adb shell monkey -p com.canva.editor 1`  
+   → Launches an app by its package name.
+
+   `adb shell am force-stop com.canva.editor`  
+   → Immediately stops an app and removes it from memory.
+
+9. `adb logcat | findstr com.Slack > "C:\Users\NETCOM\Desktop\Cavli_Training\adb_work\9.Realtime log\app_log.txt"`  
+   → Monitor realtime logs for slack.
+
