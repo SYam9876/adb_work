@@ -25,3 +25,6 @@
 
 6. `adb shell screencap -p /sdcard/screen.png`  
    → Take a screenshot using ADB.
+
+7. `adb shell pm list packages > "C:\Users\NETCOM\Desktop\Cavli_Training\adb_work\7.List installed packages\installed_packages.txt"`  
+   → Listing installed packages on device.
