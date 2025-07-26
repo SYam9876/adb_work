@@ -40,3 +40,15 @@
 
 10. `adb shell input keyevent <keycode>`  
    → Simulate hardware keypress based on keycode.
+
+11. `adb shell ps -A`  
+   → Viewing all running Processes.
+
+    `adb shell top`  
+   → Monitor CPU/Memory usage.
+
+12. `adb install "C:\Users\NETCOM\Downloads\Mini Militia Classic _ DA2 MMC_0.14.4_APKPure"`  
+   → Installing app using adb.
+
+13. `adb uninstall com.appsomniacs.mmc`  
+   → Uninstalling app using abd.
