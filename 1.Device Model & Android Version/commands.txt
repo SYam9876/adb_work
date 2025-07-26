@@ -1,0 +1,2 @@
+adb shell getprop ro.product.model      # Device Model
+adb shell getprop ro.build.version.release  # Android Version
